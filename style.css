@@ -37,13 +37,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vw;
+    font-size: clamp(5vw, 40px, 80px);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .clock .text {
     height: clamp(30px, 5vw, 40px);
-    font-size: clamp(2vw, 12px, 16px);
+    font-size: clamp(10px, 1.5vw, 15rem);
     text-transform: uppercase;
     letter-spacing: 2px;
     background: rgb(5, 26, 5);
@@ -55,7 +55,7 @@ h2 {
     position: absolute;
     width: clamp(50px, 8vw, 80px);
     height: clamp(30px, 5vw, 40px);
-    font-size: clamp(12px, 4vw, 20px);
+    font-size: clamp(10px, 1.5vw, 15rem);
     background: white;
     color: black;
 }
